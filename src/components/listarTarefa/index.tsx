@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getDate } from "../../common/getDate"
 
-import { FaEdit, FaTrashAlt } from "react-icons/fa"
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
