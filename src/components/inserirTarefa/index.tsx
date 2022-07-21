@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Botao from "../../components/botao/index"
 import { getDate } from "../../common/getDate"
 
 function Input({ criar } : any) {
