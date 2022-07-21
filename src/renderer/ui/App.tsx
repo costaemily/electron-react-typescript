@@ -8,8 +8,6 @@ import List from "../../components/listarTarefa/index"
 import styles from "./App.module.scss"
 import logo from "../public/logo192.png"
 
-import { Tarefa } from "../../interface/tarefa";
-
 export const App: React.FC = () => {
 
   const [date, setDate] = useState(getDate())
@@ -18,10 +16,7 @@ export const App: React.FC = () => {
     setTimeout(() => setDate(getDate()), 1000)
   }, [date, setDate])
 
-  const [tarefa, setTarefa] = useState(""); 
-  const [itemsList, setItemsList] = useState([]); 
   const [listaTarefas, setListaTarefas] = useState<any>([])
-  const [infoId, setinfoId] = useState<string>(``)
 
   const listItems = async () => {
     await acharTodasTarefas().then((data) => {
