@@ -24,9 +24,6 @@ Instale os pacotes.
 ```
 yarn add @mui/material @emotion/react @emotion/styled
 ```
-```
-yarn add react-icons --save
-```
 
 ## Compile o projeto como desenvolvedor
 ```
