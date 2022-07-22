@@ -34,7 +34,7 @@ export const App: React.FC = () => {
     await listItems()
   }
 
-  const alterarTask = async(id: string, descricaoTarefa: string, data: string) => {
+  const alterarTask = async(id: string, descricaoTarefa: string, date: string) => {
     const tarefa = {descricao: descricaoTarefa, dataTarefa: date}
     await atualizarTarefa(id, tarefa)
     await listItems()
