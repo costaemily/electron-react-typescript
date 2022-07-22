@@ -51,7 +51,7 @@ export const App: React.FC = () => {
         src={logo}
         alt="React logo"/>
       <Input criar={criarTask}/>
-      <List listaTarefas={listaTarefas} alterarTarefa={alterarTask} excluirTarefa={excluirTask}/>
+      <List listaTarefas={listaTarefas} editarTarefa={alterarTask} excluirTarefa={excluirTask}/>
     </div>
   )
 }
