@@ -33,7 +33,7 @@ function List({ listaTarefas, editarTarefa, excluirTarefa }: any) {
     setDescricao((event.target as HTMLInputElement).value);
   };
 
-  const atualizarTarefa = async(id: string, descricaoTarefa: string, data: string) => {
+  const atualizarTarefa = async(id: string, descricao: string, date: string) => {
     editarTarefa(id, descricao, date)
     handleClose()
   }
